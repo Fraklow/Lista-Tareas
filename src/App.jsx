@@ -60,9 +60,9 @@ function App() {
         <Card>
           <h4>Tareas</h4>
           <ListGroup>
-            <Form.Check type="checkbox"/>
             {tareas.map((t, index) => (
               <ListGroup.Item key={index} className="d-flex justify-content-between align-items-center">{t}
+                <Form.Check type="checkbox"/>
                 <div>
                   <Button 
                     variant="outline-primary" 
