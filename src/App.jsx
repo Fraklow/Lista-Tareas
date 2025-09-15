@@ -62,8 +62,8 @@ function App() {
           <ListGroup>
             {tareas.map((t, index) => (
               <ListGroup.Item key={index} className="d-flex justify-content-between align-items-center">{t}
+              <Form.Check type="checkbox"/>
                 <div>
-                  <Form.Check type="checkbox"/>
                   <Button 
                     variant="outline-primary" 
                     size="sm" 
